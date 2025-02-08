@@ -1,0 +1,37 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+             http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         version="2.5">
+
+    <!-- Listar Funcionários -->
+    <servlet>
+        <servlet-name>ListarFuncionarios</servlet-name>
+        <servlet-class>suaempresa.ListarFuncionariosServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ListarFuncionarios</servlet-name>
+        <url-pattern>/home</url-pattern>
+    </servlet-mapping>
+
+    <!-- Excluir Funcionário -->
+    <servlet>
+        <servlet-name>ExcluirFuncionario</servlet-name>
+        <servlet-class>suaempresa.ExcluirFuncionarioServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ExcluirFuncionario</servlet-name>
+        <url-pattern>/excluir</url-pattern>
+    </servlet-mapping>
+
+    <!-- Editar Funcionário -->
+    <servlet>
+        <servlet-name>EditarFuncionario</servlet-name>
+        <servlet-class>suaempresa.EditarFuncionarioServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EditarFuncionario</servlet-name>
+        <url-pattern>/editar</url-pattern>
+    </servlet-mapping>
+
+</web-app>
