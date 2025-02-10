@@ -42,10 +42,11 @@ cd gerenciamento-funcionarios
 - Configure o Tomcat como servidor.
 - Execute o projeto e acesse `http://localhost:8080/gerenciamento-funcionarios` no navegador.
 
-## Exemplo de Tela
+## Acessando o Projeto na Internet 
 
-A interface exibe uma tabela estilizada com Bootstrap, incluindo botões de edição e exclusão:
-
+```bash
+https://3c28-2804-14c-87c2-c057-5d42-d7c8-48ef-71c7.ngrok-free.app/Teste/listarFuncionarios
+```
 
 ## Autor
 
