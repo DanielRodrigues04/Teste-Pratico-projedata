@@ -47,6 +47,7 @@ cd gerenciamento-funcionarios
 ```bash
 https://3c28-2804-14c-87c2-c057-5d42-d7c8-48ef-71c7.ngrok-free.app/Teste/listarFuncionarios
 ```
+- Infelizmente, o ngrok gera URLs temporárias a cada nova sessão
 
 ## Autor
 
